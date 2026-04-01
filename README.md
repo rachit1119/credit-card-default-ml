@@ -71,11 +71,9 @@ Models tested:
 | Model | Validation Precision | Test Precision | Key Insight |
 |------|--------------------|--------------|------------|
 | Logistic Regression | 0.7265 | 0.6916 | Best overall performance |
-| Decision Tree (tuned) | 0.6963 | ~0.70 | Strong after pruning |
-| Gradient Boosting | 0.6761 | ~0.70 | Good but slower |
-| Random Forest | 0.6436 | Overfit | High variance |
-| Baseline | 0.0 | - | Predicts no defaults |
-
+| Decision Tree (tuned) | 0.6963 | 0.704498 | Strong after pruning |
+| Gradient Boosting | 0.6761 | 0.705467 | Good but slower |
+| Random Forest | 0.6436 | 0.999039 | High variance |
 ---
 
 ## Key Findings
